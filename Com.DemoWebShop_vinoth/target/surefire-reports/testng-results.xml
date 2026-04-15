@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-10T20:07:05 IST" name="Suite" finished-at="2026-04-10T20:07:36 IST" duration-ms="31396">
+    <groups>
+    </groups>
+    <test started-at="2026-04-10T20:07:05 IST" name="Test" finished-at="2026-04-10T20:07:36 IST" duration-ms="31396">
+      <class name="Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test">
+        <test-method is-config="true" signature="bs()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:05 IST" name="bs" finished-at="2026-04-10T20:07:05 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:05 IST" name="bt" finished-at="2026-04-10T20:07:05 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:05 IST" name="bc" finished-at="2026-04-10T20:07:19 IST" duration-ms="14299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:20 IST" name="bm" finished-at="2026-04-10T20:07:22 IST" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="addAdress()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:22 IST" name="addAdress" finished-at="2026-04-10T20:07:33 IST" duration-ms="10304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAdress -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:33 IST" name="am" finished-at="2026-04-10T20:07:33 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:33 IST" name="ac" finished-at="2026-04-10T20:07:36 IST" duration-ms="2642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:36 IST" name="at" finished-at="2026-04-10T20:07:36 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="as()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:36 IST" name="as" finished-at="2026-04-10T20:07:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
