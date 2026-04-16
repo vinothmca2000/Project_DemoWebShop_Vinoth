@@ -3,16 +3,18 @@ package Com.DemoWebShop_TestScripts;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Com.DemoWEbShop_GenericUtility.BaseTest;
+import Com.DemoWEbShop_GenericUtility.ListenerUtility;
 import Com.DemoWebShop_POM.AddNewAddress_Page;
 import Com.DemoWebShop_POM.Address_Page;
-
+@Listeners(ListenerUtility.class)
 public class TC_001_Verify_user_is_able_to_add_new_address_or_not_Test extends BaseTest{
 	
 	@Test
-	private void addAdress() throws EncryptedDocumentException, IOException, InterruptedException {
+	public void addAdress() throws EncryptedDocumentException, IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		
 		Thread.sleep(2000);

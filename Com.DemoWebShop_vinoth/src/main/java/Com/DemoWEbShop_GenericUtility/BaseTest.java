@@ -24,7 +24,7 @@ import Com.DemoWebShop_POM.Home_Page;
 import Com.DemoWebShop_POM.Login_Page;
 import Com.DemoWebShop_POM.Welcome_Page;
 
-public class BaseTest extends ListenerUtility {
+public class BaseTest{
 
 	public WebDriver driver;
 	public static WebDriver sDriver;
