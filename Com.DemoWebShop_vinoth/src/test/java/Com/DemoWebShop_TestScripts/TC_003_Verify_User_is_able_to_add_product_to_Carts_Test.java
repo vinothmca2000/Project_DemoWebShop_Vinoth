@@ -2,8 +2,7 @@ package Com.DemoWebShop_TestScripts;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
+
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -15,7 +14,7 @@ import Com.DemoWebShop_POM.CheckOut;
 
 
 @Listeners(ListenerUtility.class)
-public class TC003_Verify_User_is_able_to_add_product_to_Carts_Test extends BaseTest{
+public class TC_003_Verify_User_is_able_to_add_product_to_Carts_Test extends BaseTest{
 
 	@Test
 	public void addToCart() throws IOException

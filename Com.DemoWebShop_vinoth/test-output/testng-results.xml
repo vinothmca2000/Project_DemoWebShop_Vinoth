@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-19T14:20:14 IST" name="Default suite" finished-at="2026-04-19T14:20:28 IST" duration-ms="14192">
+  <suite started-at="2026-04-19T14:43:55 IST" name="Default suite" finished-at="2026-04-19T14:44:14 IST" duration-ms="18671">
     <groups>
     </groups>
-    <test started-at="2026-04-19T14:20:14 IST" name="Default test" finished-at="2026-04-19T14:20:28 IST" duration-ms="14192">
-      <class name="Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test">
-        <test-method is-config="true" signature="bs()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:14 IST" name="bs" finished-at="2026-04-19T14:20:14 IST" duration-ms="8" status="PASS">
+    <test started-at="2026-04-19T14:43:55 IST" name="Default test" finished-at="2026-04-19T14:44:14 IST" duration-ms="18671">
+      <class name="Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test">
+        <test-method is-config="true" signature="bs()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:43:55 IST" name="bs" finished-at="2026-04-19T14:43:55 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:14 IST" name="bt" finished-at="2026-04-19T14:20:14 IST" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:43:55 IST" name="bt" finished-at="2026-04-19T14:43:55 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:14 IST" name="bc" finished-at="2026-04-19T14:20:19 IST" duration-ms="5224" status="PASS">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:43:55 IST" name="bc" finished-at="2026-04-19T14:44:00 IST" duration-ms="4510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:19 IST" name="bm" finished-at="2026-04-19T14:20:21 IST" duration-ms="1683" status="PASS">
+        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:00 IST" name="bm" finished-at="2026-04-19T14:44:02 IST" duration-ms="1726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method signature="addToCart()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:21 IST" name="addToCart" finished-at="2026-04-19T14:20:25 IST" duration-ms="3863" status="PASS">
+        <test-method signature="addAdress()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:02 IST" name="addAdress" finished-at="2026-04-19T14:44:10 IST" duration-ms="8836" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:25 IST" name="am" finished-at="2026-04-19T14:20:26 IST" duration-ms="762" status="PASS">
+        </test-method> <!-- addAdress -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:10 IST" name="am" finished-at="2026-04-19T14:44:11 IST" duration-ms="861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:26 IST" name="ac" finished-at="2026-04-19T14:20:28 IST" duration-ms="2253" status="PASS">
+        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:11 IST" name="ac" finished-at="2026-04-19T14:44:14 IST" duration-ms="2329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:28 IST" name="at" finished-at="2026-04-19T14:20:28 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:14 IST" name="at" finished-at="2026-04-19T14:44:14 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test@74e52ef6]" started-at="2026-04-19T14:20:28 IST" name="as" finished-at="2026-04-19T14:20:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="as()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:14 IST" name="as" finished-at="2026-04-19T14:44:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- as -->
-      </class> <!-- Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test -->
+      </class> <!-- Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

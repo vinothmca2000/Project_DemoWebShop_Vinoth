@@ -1,49 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-10T20:07:05 IST" name="Suite" finished-at="2026-04-10T20:07:36 IST" duration-ms="31396">
+  <suite started-at="2026-04-19T14:41:33 IST" name="Surefire suite" finished-at="2026-04-19T14:41:54 IST" duration-ms="20890">
     <groups>
     </groups>
-    <test started-at="2026-04-10T20:07:05 IST" name="Test" finished-at="2026-04-10T20:07:36 IST" duration-ms="31396">
+    <test started-at="2026-04-19T14:41:33 IST" name="Surefire test" finished-at="2026-04-19T14:41:54 IST" duration-ms="20890">
       <class name="Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test">
-        <test-method is-config="true" signature="bs()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:05 IST" name="bs" finished-at="2026-04-10T20:07:05 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="bs()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:33 IST" name="bs" finished-at="2026-04-19T14:41:33 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:05 IST" name="bt" finished-at="2026-04-10T20:07:05 IST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:33 IST" name="bt" finished-at="2026-04-19T14:41:33 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:05 IST" name="bc" finished-at="2026-04-10T20:07:19 IST" duration-ms="14299" status="PASS">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:33 IST" name="bc" finished-at="2026-04-19T14:41:38 IST" duration-ms="4506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:20 IST" name="bm" finished-at="2026-04-10T20:07:22 IST" duration-ms="2779" status="PASS">
+        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:38 IST" name="bm" finished-at="2026-04-19T14:41:39 IST" duration-ms="1764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method signature="addAdress()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:22 IST" name="addAdress" finished-at="2026-04-10T20:07:33 IST" duration-ms="10304" status="PASS">
+        <test-method signature="addAdress()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:39 IST" name="addAdress" finished-at="2026-04-19T14:41:49 IST" duration-ms="9220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAdress -->
-        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:33 IST" name="am" finished-at="2026-04-10T20:07:33 IST" duration-ms="837" status="PASS">
+        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:49 IST" name="am" finished-at="2026-04-19T14:41:50 IST" duration-ms="1086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:33 IST" name="ac" finished-at="2026-04-10T20:07:36 IST" duration-ms="2642" status="PASS">
+        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:50 IST" name="ac" finished-at="2026-04-19T14:41:52 IST" duration-ms="2299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:36 IST" name="at" finished-at="2026-04-10T20:07:36 IST" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:54 IST" name="at" finished-at="2026-04-19T14:41:54 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@6572421]" started-at="2026-04-10T20:07:36 IST" name="as" finished-at="2026-04-10T20:07:36 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="as()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@9353778]" started-at="2026-04-19T14:41:54 IST" name="as" finished-at="2026-04-19T14:41:54 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- as -->
       </class> <!-- Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      <class name="Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@31d7b7bf]" started-at="2026-04-19T14:41:53 IST" name="bc" finished-at="2026-04-19T14:41:54 IST" duration-ms="721" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
+at Com.DemoWEbShop_GenericUtility.BaseTest.bc(BaseTest.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@31d7b7bf]" started-at="2026-04-19T14:41:54 IST" name="bm" finished-at="2026-04-19T14:41:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="addToCart()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@31d7b7bf]" started-at="2026-04-19T14:41:54 IST" name="addToCart" finished-at="2026-04-19T14:41:54 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
+at Com.DemoWEbShop_GenericUtility.BaseTest.bc(BaseTest.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@31d7b7bf]" started-at="2026-04-19T14:41:54 IST" name="am" finished-at="2026-04-19T14:41:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@31d7b7bf]" started-at="2026-04-19T14:41:54 IST" name="ac" finished-at="2026-04-19T14:41:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test -->
+      <class name="Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@30ee2816]" started-at="2026-04-19T14:41:52 IST" name="bc" finished-at="2026-04-19T14:41:53 IST" duration-ms="790" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
+at Com.DemoWEbShop_GenericUtility.BaseTest.bc(BaseTest.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@30ee2816]" started-at="2026-04-19T14:41:53 IST" name="bm" finished-at="2026-04-19T14:41:53 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="addAdress()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@30ee2816]" started-at="2026-04-19T14:41:53 IST" name="addAdress" finished-at="2026-04-19T14:41:53 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
+at Com.DemoWEbShop_GenericUtility.BaseTest.bc(BaseTest.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAdress -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@30ee2816]" started-at="2026-04-19T14:41:53 IST" name="am" finished-at="2026-04-19T14:41:53 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@30ee2816]" started-at="2026-04-19T14:41:53 IST" name="ac" finished-at="2026-04-19T14:41:53 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
