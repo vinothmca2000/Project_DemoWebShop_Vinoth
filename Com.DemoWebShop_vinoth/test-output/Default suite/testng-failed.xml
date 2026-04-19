@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test">
+      <class name="Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test">
         <methods>
           <include name="bm"/>
           <include name="am"/>
-          <include name="addAdress"/>
           <include name="at"/>
+          <include name="addToCart"/>
           <include name="bc"/>
           <include name="bs"/>
           <include name="ac"/>
           <include name="bt"/>
           <include name="as"/>
         </methods>
-      </class> <!-- Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test -->
+      </class> <!-- Com.DemoWebShop_TestScripts.TC003_Verify_User_is_able_to_add_product_to_Carts_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

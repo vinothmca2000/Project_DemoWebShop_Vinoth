@@ -13,8 +13,12 @@ public class Welcome_Page {
 	
 	@FindBy(partialLinkText  = "Log in")
 	private WebElement loginBtnElement;
+	
+	
 
 	public WebElement getLoginBtnElement() {
 		return loginBtnElement;
 	}
+
+	
 }

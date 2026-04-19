@@ -18,13 +18,15 @@ import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import Com.DemoWebShop_POM.Home_Page;
 import Com.DemoWebShop_POM.Login_Page;
 import Com.DemoWebShop_POM.Welcome_Page;
 
-public class BaseTest{
+
+public class BaseTest {
 
 	public WebDriver driver;
 	public static WebDriver sDriver;
@@ -50,7 +52,7 @@ public class BaseTest{
 		spark = new ExtentSparkReporter(FrameWorkConstants.reportspath);
 		reports = new ExtentReports();
 		reports.attachReporter(spark);
-		reports.createTest("Address Module");
+		test = reports.createTest("Address Module");
 
 	}
 
@@ -59,7 +61,7 @@ public class BaseTest{
 		System.out.println("@BeforeClass Browser Launched");
 		String url = fileUtility.readDataFromPropertyFile("baseUrl");
 		String browserName = fileUtility.readDataFromPropertyFile("browserName");
-		
+
 //		String browserName=System.getProperty("browserName");
 //		String url=System.getProperty("baseUrl");
 
@@ -70,23 +72,27 @@ public class BaseTest{
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
 		}
+		test.log(Status.INFO, "Browser Launched");
 		sDriver = driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.get(url);
+		test.log(Status.INFO, "Navigated to WelcomePage");
+
 	}
 
 	@BeforeMethod
 	public void bm() throws IOException {
 		System.out.println("@BeforeMethod Login");
-
 		welcomePage = new Welcome_Page(driver);
 		welcomePage.getLoginBtnElement().click();
+		test.log(Status.INFO, "Navigated to Login Page");
 
 		loginPage = new Login_Page(driver);
 		loginPage.getEmailTextField().sendKeys(fileUtility.readDataFromPropertyFile("emailID"));
 		loginPage.getPasswordTextField().sendKeys(fileUtility.readDataFromPropertyFile("password"));
 		loginPage.getLoginBtn().click();
+		test.log(Status.INFO, "Log in Successfully");
 		homePage = new Home_Page(driver);
 
 	}
@@ -95,6 +101,7 @@ public class BaseTest{
 	public void am() throws IOException {
 		System.out.println("@AfterMethod Log Out");
 		homePage.getLogoutBtn().click();
+		test.log(Status.INFO, "Log out Successfully");
 	}
 
 	@AfterClass
@@ -103,6 +110,7 @@ public class BaseTest{
 
 		Thread.sleep(2000);
 		driver.quit();
+
 	}
 
 	@AfterTest
