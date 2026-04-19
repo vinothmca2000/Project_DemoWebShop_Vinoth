@@ -58,7 +58,7 @@ public class BaseTest {
 
 	@BeforeClass
 	public void bc() throws IOException {
-		System.out.println("@BeforeClass Browser Launched");
+		System.out.println("@BeforeClass Browser Launched Successsfully");
 		String url = fileUtility.readDataFromPropertyFile("baseUrl");
 		String browserName = fileUtility.readDataFromPropertyFile("browserName");
 
