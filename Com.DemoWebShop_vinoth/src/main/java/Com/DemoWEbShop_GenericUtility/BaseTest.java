@@ -53,6 +53,7 @@ public class BaseTest {
 		reports = new ExtentReports();
 		reports.attachReporter(spark);
 		test = reports.createTest("Address Module");
+		
 
 	}
 
@@ -61,6 +62,7 @@ public class BaseTest {
 		System.out.println("@BeforeClass Browser Launched Successsfully");
 		String url = fileUtility.readDataFromPropertyFile("baseUrl");
 		String browserName = fileUtility.readDataFromPropertyFile("browserName");
+		
 
 //		String browserName=System.getProperty("browserName");
 //		String url=System.getProperty("baseUrl");

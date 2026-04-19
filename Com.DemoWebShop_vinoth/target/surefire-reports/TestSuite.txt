@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 21.35 s <<< FAILURE! -- in TestSuite
-Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test.bc -- Time elapsed: 13.40 s <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
-	at Com.DemoWEbShop_GenericUtility.BaseTest.bc(BaseTest.java:75)
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 19.63 s <<< FAILURE! -- in TestSuite
+Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test.bc -- Time elapsed: 11.88 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.reports" is null
+	at Com.DemoWEbShop_GenericUtility.BaseTest.bc(BaseTest.java:64)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -35,9 +35,9 @@ java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.Exte
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test.bc -- Time elapsed: 0.726 s <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
-	at Com.DemoWEbShop_GenericUtility.BaseTest.bc(BaseTest.java:75)
+Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test.bc -- Time elapsed: 0.006 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.reports" is null
+	at Com.DemoWEbShop_GenericUtility.BaseTest.bc(BaseTest.java:64)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
