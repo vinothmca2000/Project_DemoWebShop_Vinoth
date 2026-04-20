@@ -1,49 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-19T14:43:55 IST" name="Default suite" finished-at="2026-04-19T14:44:14 IST" duration-ms="18671">
+  <suite started-at="2026-04-20T19:18:30 IST" name="Suite" finished-at="2026-04-20T19:19:41 IST" duration-ms="70487">
     <groups>
     </groups>
-    <test started-at="2026-04-19T14:43:55 IST" name="Default test" finished-at="2026-04-19T14:44:14 IST" duration-ms="18671">
+    <test started-at="2026-04-20T19:18:30 IST" name="Test" finished-at="2026-04-20T19:18:55 IST" duration-ms="24939">
       <class name="Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test">
-        <test-method is-config="true" signature="bs()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:43:55 IST" name="bs" finished-at="2026-04-19T14:43:55 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:43:55 IST" name="bt" finished-at="2026-04-19T14:43:55 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-20T19:18:30 IST" name="bt" finished-at="2026-04-20T19:18:31 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:43:55 IST" name="bc" finished-at="2026-04-19T14:44:00 IST" duration-ms="4510" status="PASS">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-20T19:18:31 IST" name="bc" finished-at="2026-04-20T19:18:39 IST" duration-ms="8032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:00 IST" name="bm" finished-at="2026-04-19T14:44:02 IST" duration-ms="1726" status="PASS">
+        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-20T19:18:39 IST" name="bm" finished-at="2026-04-20T19:18:41 IST" duration-ms="2302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method signature="addAdress()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:02 IST" name="addAdress" finished-at="2026-04-19T14:44:10 IST" duration-ms="8836" status="PASS">
+        <test-method signature="addAdress()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-20T19:18:41 IST" name="addAdress" finished-at="2026-04-20T19:18:52 IST" duration-ms="10585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAdress -->
-        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:10 IST" name="am" finished-at="2026-04-19T14:44:11 IST" duration-ms="861" status="PASS">
+        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-20T19:18:52 IST" name="am" finished-at="2026-04-20T19:18:53 IST" duration-ms="1138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:11 IST" name="ac" finished-at="2026-04-19T14:44:14 IST" duration-ms="2329" status="PASS">
+        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-20T19:18:53 IST" name="ac" finished-at="2026-04-20T19:18:55 IST" duration-ms="2349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:14 IST" name="at" finished-at="2026-04-19T14:44:14 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-20T19:18:55 IST" name="at" finished-at="2026-04-20T19:18:55 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- at -->
-        <test-method is-config="true" signature="as()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test@489115ef]" started-at="2026-04-19T14:44:14 IST" name="as" finished-at="2026-04-19T14:44:14 IST" duration-ms="1" status="PASS">
+      </class> <!-- Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test -->
+    </test> <!-- Test -->
+    <test started-at="2026-04-20T19:18:55 IST" name="Test1" finished-at="2026-04-20T19:19:10 IST" duration-ms="14640">
+      <class name="Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@66d18979]" started-at="2026-04-20T19:18:55 IST" name="bt" finished-at="2026-04-20T19:18:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@66d18979]" started-at="2026-04-20T19:18:55 IST" name="bc" finished-at="2026-04-20T19:18:59 IST" duration-ms="3860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@66d18979]" started-at="2026-04-20T19:18:59 IST" name="bm" finished-at="2026-04-20T19:19:01 IST" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="addToCart()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@66d18979]" started-at="2026-04-20T19:19:01 IST" name="addToCart" finished-at="2026-04-20T19:19:07 IST" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@66d18979]" started-at="2026-04-20T19:19:07 IST" name="am" finished-at="2026-04-20T19:19:08 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@66d18979]" started-at="2026-04-20T19:19:08 IST" name="ac" finished-at="2026-04-20T19:19:10 IST" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test@66d18979]" started-at="2026-04-20T19:19:10 IST" name="at" finished-at="2026-04-20T19:19:10 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Com.DemoWebShop_TestScripts.TC_003_Verify_User_is_able_to_add_product_to_Carts_Test -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-04-20T19:19:10 IST" name="Test2" finished-at="2026-04-20T19:19:41 IST" duration-ms="30870">
+      <class name="Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test">
+        <test-method is-config="true" signature="bs()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:18:30 IST" name="bs" finished-at="2026-04-20T19:18:30 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:19:10 IST" name="bt" finished-at="2026-04-20T19:19:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:19:10 IST" name="bc" finished-at="2026-04-20T19:19:14 IST" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:19:14 IST" name="bm" finished-at="2026-04-20T19:19:16 IST" duration-ms="1926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="addAdress()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:19:16 IST" name="addAdress" finished-at="2026-04-20T19:19:37 IST" duration-ms="21554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAdress -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:19:37 IST" name="am" finished-at="2026-04-20T19:19:38 IST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:19:38 IST" name="ac" finished-at="2026-04-20T19:19:41 IST" duration-ms="2335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:19:41 IST" name="at" finished-at="2026-04-20T19:19:41 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="as()[pri:0, instance:Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test@17f7cd29]" started-at="2026-04-20T19:19:41 IST" name="as" finished-at="2026-04-20T19:19:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- as -->
-      </class> <!-- Com.DemoWebShop_TestScripts.TC_001_Verify_user_is_able_to_add_new_address_or_not_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Com.DemoWebShop_TestScripts.TC_002_Verify_user_is_able_to_delete_adress_or_not_Test -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
