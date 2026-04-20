@@ -37,6 +37,7 @@ public class TC_001_Verify_user_is_able_to_add_new_address_or_not_Test extends B
 		addNewAddress_Page.getSaveBtn().click();
 		Thread.sleep(2000);
 		webDriverUtility.webPageScreenShot(driver);
+		System.out.println("New Commit for Scm test");
 	}
 	
 
