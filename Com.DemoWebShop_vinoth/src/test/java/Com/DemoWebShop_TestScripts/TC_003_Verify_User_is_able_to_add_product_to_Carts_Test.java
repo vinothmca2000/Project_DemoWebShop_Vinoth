@@ -35,6 +35,7 @@ public class TC_003_Verify_User_is_able_to_add_product_to_Carts_Test extends Bas
 	cart_Page.getCheckout().click();
 	
 	CheckOut checkOut=new CheckOut(driver);
+	//Take screenshot
 	
 	try {
 		checkOut.getCheckoutPage().isDisplayed();
